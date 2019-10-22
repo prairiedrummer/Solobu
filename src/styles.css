@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  border-bottom: 1px solid #ccc;
+}
+.bg-blue-500 {
+  background-color: #2779bd !important;
+}
+.list-stuff {
+  height: 40vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.list-container {
+  height: 50vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif !important;
+}
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.h-base {
+  height: 22em;
+}
+
+.solobuy-image {
+  background: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/73135808_2825599867473110_101062126663106560_o.jpg?_nc_cat=109&_nc_oc=AQn2pgzoFUtvKwZoyXUzxlJXp40wvTxbGRmfirpZdrHEhUZOWsi3lwjRSgTmH649zIs&_nc_ht=scontent-dfw5-2.xx&oh=c9f98b7ef51ba09c80bc29f2acd653b5&oe=5E232601");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.solobuy-thumbnails {
+  height: 4em;
+  object-fit: cover;
+}
+
+.text-short {
+  display: -webkit-box;
+  height: 2.5em;
+  overflow: hidden;
+  width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #4299e1 !important;
+}
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.list-item {
+  display: inherit;
+  text-align: left;
+}

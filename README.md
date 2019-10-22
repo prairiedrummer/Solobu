@@ -1,2 +1,0 @@
-# Solobu
-Created with CodeSandbox
